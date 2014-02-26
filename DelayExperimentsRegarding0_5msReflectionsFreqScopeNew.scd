@@ -442,7 +442,8 @@ dd = DelayC.ar ( d, 0.6, delaytime);
 
 // titta jag kan cyckla utan huvud
 // titta jag kan cyckla utan huvud
-// titta jag kan cyckla utan huvud
+
+
 
 (
 {
