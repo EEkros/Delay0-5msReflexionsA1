@@ -4,6 +4,9 @@
 { Blip.ar(200,Line.kr(1,100,20),0.2) }.scope(1);
 
 FreqScope.new;
+FreqScope.new;
+
+
 
 Window.new
 
