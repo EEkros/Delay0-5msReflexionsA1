@@ -155,12 +155,13 @@ e = Buffer.read(s, "sounds/a11wlk01.wav"); // this one is in SC sounds folder
 
 (
 {
-var signal;
+var signal, dvol;
 var delaytime = MouseX.kr(0.001,0.2, 1);
+	dvol = MouseY.kr ( 0.00, 20.00 );
 signal = Impulse.ar(1); // the sound source
 
 d =  DelayL.ar(signal, 0.6, delaytime);
-
+d = d * dvol;
 [d, signal]
 }.play
 )
